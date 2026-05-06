@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Visitante extends Model
 {
+    protected $table = 'visitante';
     protected $fillable =[
         'cedula', 
         'nombre',

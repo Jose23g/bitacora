@@ -14,6 +14,6 @@ class Log extends Model
     ];
 
     public function visitante(){
-        return $this->belongsTo(Visitante::class);
+        return $this->belongsTo(Visitante::class, 'id_visitante');
     }
 }
